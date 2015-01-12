@@ -55,7 +55,7 @@ class Disqus
 	{
 		$disqusLanguages = $this->config->get('laravel-disqus::discus_languages');
 
-		if (array_key_exists($language, $discus_languages)) {
+		if (array_key_exists($language, $disqusLanguages)) {
 			$language = $disqusLanguages[$language];
 		}
 
