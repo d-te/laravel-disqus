@@ -101,7 +101,7 @@ There are some [disqus configuration variables](https://help.disqus.com/customer
 	To convert your app locale to discus locale just add supported locales to config ```app/config/packages/d-te/laravel-disqus/config.php```	example:
 	
 ```php
-	  'discus_locales' => array(
+	  'discus_languages' => array(
 	 			'ua' => 'uk',
 	 			'fr' => 'fr_CA',
 	 		)
