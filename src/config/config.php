@@ -12,12 +12,12 @@ return array(
 	'auto_set_language' => false,
 
 	/**
-	 * Sometimes discus languages is  note corresponde to App locale.
-	 * To convert App locale to discus locale just add supported locales to this array
-	 * List of supported disqus lanquages: https://www.transifex.com/languages/
+	 * Sometimes discus languages could not corresponde to your app locale.
+	 * To convert your app locale to discus locale just add supported locales to this array
+	 * List of supported disqus locales: https://www.transifex.com/languages/
 	 *
 	 * example:
-	 * 		'discus_locales' => array(
+	 * 		'discus_languages' => array(
 	 * 			'en' => 'en',
 	 * 			'ua' => 'uk',
 	 * 			'ru' => 'ru',
