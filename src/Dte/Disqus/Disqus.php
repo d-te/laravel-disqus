@@ -51,6 +51,17 @@ class Disqus
 			));
 	}
 
+	public function commentsCountScript()
+	{
+		$settings = array();
+
+		$settings['disqus_shortname'] = $this->config->get('laravel-disqus::disqus_shortname');
+
+		return \View::make('laravel-disqus::disqus.counts', array(
+				'settings' => $settings,
+			));
+	}
+
 	public function getDisqusLanguage($language)
 	{
 		$disqusLanguages = $this->config->get('laravel-disqus::discus_languages');
